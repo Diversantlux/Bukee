@@ -17,10 +17,7 @@ body {
     line-height: 24px;
 }
 
-h1, h2, h3, h4, p {
-    padding: 0;
-    margin: 0px;
-}
+
 
 h3 {
     font-size: 24px;
@@ -214,7 +211,7 @@ h3 {
             padding: 0;
             counter-reset: list;
             column-count: 2;
-            &>li {
+            li {
                 position: relative;
                 padding-left: 36px;
                 counter-increment: list;
