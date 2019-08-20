@@ -316,3 +316,48 @@ h3 {
         }
     }
 }
+
+.block-product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+    &-demo {
+        display: block;
+        position: relative;
+        width: 447px;
+        height: 450px;
+        background-image: url(../img/book-img.svg);
+        background-repeat: no-repeat;
+ 
+        &__title {
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            position: absolute;
+            left: 58px;
+            top: 55px;
+            text-align: center;
+            color: white;
+            span {
+                font-family: 'Open Sant', serif;
+                font-size: 14px;
+                color: $accent-color;
+                display: block;
+                text-transform: initial;
+                margin-top: 10px;
+                letter-spacing: 0.7px;
+            }
+        }
+        &__author {
+                font-family: 'Open Sant', serif;
+                font-size: 14px;
+                color: $accent-color;
+                position: absolute;
+                letter-spacing: 0.7px;
+                bottom: 80px;
+                left: 65px;
+        }
+    }
+   
+}
