@@ -128,7 +128,19 @@
                                             <li>Consectetur adipisicing elit</li>
                                             <li>labore et dolore magna</li>
                                         </ol>
-                                        <button class="block-about-table__btn">More</button>
+                                        <ol class="block-about-table-list block-about-table-list_next" id="nextContentsList" style="display:none;">
+                                            <li>Lorem ipsum dolor sit amet</li>
+                                            <li>Consectetur adipisicing elit</li>
+                                            <li>labore et dolore magna</li>
+                                            <li>Consectetur adipisicing elit</li>
+                                            <li>labore et dolore magna</li>
+                                            <li>Lorem ipsum dolor sit amet</li>
+                                            <li>Consectetur adipisicing elit</li>
+                                            <li>labore et dolore magna</li>
+                                            <li>Consectetur adipisicing elit</li>
+                                            <li>labore et dolore magna</li>
+                                        </ol>
+                                        <button id="nextContents" class="block-about-table__btn">More</button>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +160,7 @@
                                         </div>
                                         <div class="block-product-text">
                                             <h3>Inception</h3>
-                                            <p class="block-product-text__bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
                                             <a href="">Read More</a>
                                         </div>
                                     </div>
@@ -162,7 +174,7 @@
                                             </div>
                                             <div class="block-product-text">
                                                 <h3>Inception</h3>
-                                                <p class="block-product-text__bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
                                                 <a href="">Read More</a>
                                             </div>
                                         </div>
@@ -176,7 +188,7 @@
                                             </div>
                                             <div class="block-product-text">
                                                 <h3>Inception</h3>
-                                                <p class="block-product-text__bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
                                                 <a href="">Read More</a>
                                             </div>
                                         </div>
@@ -354,6 +366,10 @@
                 arrows: false,
             }); 
             });
+            $("#nextContents").click(function(){
+                $("#nextContentsList").fadeIn();
+                $("#nextContents").hide();
+            }); 
         </script>
     </body>
 </html>
