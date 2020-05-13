@@ -1,21 +1,22 @@
 
+@media(max-width: 480px) {
 .header-list {
-  
-    @media(max-width:480px) {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-            -ms-flex-direction: column-reverse;
-                flex-direction: column-reverse;
-        text-align: center;
-    }
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+}
+.block-book-demo__title {
+    top: 10px;
+    
+}
+.block-footer {
+    display: flex;
+    flex-direction: column;
 }
 
-.footer {
-    @media(max-width:480px) {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-            -ms-flex-direction: column-reverse;
-                flex-direction: column-reverse;
-        text-align: center;
-    }
 }
+
