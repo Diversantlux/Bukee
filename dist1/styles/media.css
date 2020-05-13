@@ -1,0 +1,21 @@
+
+.header-list {
+  
+    @media(max-width:480px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+.footer {
+    @media(max-width:480px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        text-align: center;
+    }
+}
